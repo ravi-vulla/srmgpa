@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">srm gpa</string>
+    <string-array name="grade">
+        <item>O</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C</item>
+        <item>P</item>
+        <item>F</item>
+        <item>Ab</item>
+        <item>I</item>
+
+    </string-array>
+</resources>

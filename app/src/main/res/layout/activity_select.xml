@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.ravi7.srmgpa.SelectActivity">
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="select grades"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:textSize="30dp"
+    android:id="@+id/gradetext"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30dp"
+        android:text="eneter credits"
+        android:id="@+id/cereditstext"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/gradetext"
+        android:id="@+id/recyclerview"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caluculate"
+        android:id="@+id/result"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="caluculate"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/caluculate"
+        android:layout_below="@+id/recyclerview"/>
+
+</RelativeLayout>
