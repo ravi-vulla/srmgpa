@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:hint="eneter number of subjects :"
+        android:hint="enter number of subjects :"
         android:id="@+id/number"
         android:inputType="number"
         android:maxLength="1"
@@ -22,6 +22,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/enter"
+    android:textColor="@color/colorWhite"
     android:text="ok"
     />
 </LinearLayout>

@@ -6,37 +6,37 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#6a918b"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
     tools:context="com.example.ravi7.srmgpa.MainActivity">
 <ImageView
     android:layout_width="150dp"
     android:layout_height="150dp"
-
-    android:src="@drawable/srmseal"
+    app:srcCompat="@drawable/ic_calculator"
     />
     <TextView
+        android:layout_margin="32dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SRM GPA CALUCULATOR"
-        android:textColor="#e90707"
         android:gravity="center"
-        android:textSize="35dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <Button
-        android:layout_width="149dp"
-        android:background="#dcbcb4"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorWhite"
 android:id="@+id/student"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
 
         android:text="student"/>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/teacher"
-        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
         android:text="teacher"/>
 </LinearLayout>

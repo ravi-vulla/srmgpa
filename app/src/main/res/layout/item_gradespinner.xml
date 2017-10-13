@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center"
     >
@@ -17,7 +18,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:digits="012345"
-        android:maxLength="1"
+        android:maxLength="9"
         android:id="@+id/credits"
         />
 

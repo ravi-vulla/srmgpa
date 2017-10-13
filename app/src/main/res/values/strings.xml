@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">srm gpa</string>
+    <string name="app_name">SRM GPA Calculator</string>
     <string-array name="grade">
         <item>O</item>
         <item>A+</item>

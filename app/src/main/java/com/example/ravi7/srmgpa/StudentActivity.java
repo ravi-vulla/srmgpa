@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class StudentActivity extends AppCompatActivity {
-private Button ok;
+    private Button ok;
         private EditText number1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
