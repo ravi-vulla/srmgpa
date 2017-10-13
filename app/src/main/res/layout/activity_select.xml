@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+    android:layout_margin="16dp"
     >
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -15,22 +16,34 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     tools:context="com.example.ravi7.srmgpa.SelectActivity">
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/ic_calculator"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+
+        />
 <TextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="select grades"
-    android:layout_alignParentTop="true"
-    android:layout_alignParentLeft="true"
-    android:textSize="30dp"
+    android:text="Grades"
+android:layout_below="@+id/image"
+    android:textSize="24sp"
+    android:textColor="@color/colorPrimary"
+    android:layout_margin="16dp"
     android:id="@+id/gradetext"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+     android:layout_below="@+id/image"
         android:layout_alignParentRight="true"
-        android:textSize="30dp"
-        android:text="eneter credits"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Credits"
+        android:layout_margin="16dp"
         android:id="@+id/cereditstext"/>
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
@@ -39,13 +52,28 @@
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/caluculate"
+        android:text="GPA"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ggg"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ggg"
         android:id="@+id/result"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:text="32323"
         />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="caluculate"
         android:layout_centerHorizontal="true"

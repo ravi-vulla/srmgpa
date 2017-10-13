@@ -8,6 +8,18 @@
     android:gravity="center"
     android:background="#e4dada"
     tools:context="com.example.ravi7.srmgpa.StudentActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_graduate"
+        android:layout_margin="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate GPA"
+        android:textSize="24sp"
+        />
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
